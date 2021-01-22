@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #EFF2F7;     
+}
+/* CONTEÚDO GERAL DAS PÁGINAS */
+/* Títulos (h2), subtítulos(h3) citações (h6) parágrafos (p) */
+
+h2{
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #2B2B30;
+}
+h3{
+    font-size: 22px;
+    font-weight: 320;
+    letter-spacing: 2px;
+    color: #7f7f86;
+}
+h6{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    color: #2B2B30;
+}
+p{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: justify;
+    color: #2B2B30;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+label{
+    letter-spacing: .5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0c0c0c;
+}
+
+.text-links{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #2B2B30;
+    text-decoration: none;
+    transition: .2s;
+}
+.text-links:hover{
+    font-weight: 400;
+    font-size: 21px;
+    color: #aeaeb6;
+    text-decoration: none;
+}
+
+.collapse div ul li{ /* LI referentes aos intens do menu */
+    padding: 5px;
+}
+
+/* MENÚ (NAVBAR)*/
+/* efeito de transparência do menú */
+nav:hover{
+    background-color: rgba(0, 0, 0, 0.692);
+    transition: .4s;
+}
+/* -------------------------------- */
+
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.692);
+    transition: .4s;
+}
+.fonte-menu{
+    color: #EEEFF8;
+    padding-right: 5px;
+    text-decoration: none;
+    font-weight: 100;
+    transition: .4s;
+}
+.fonte-menu:hover{
+    font-weight: bold;
+    color: #D3D3D8;
+    text-decoration: none;
+}
+.btn-menu{
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    border: 2px solid #EEEFF8;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    color: #EEEFF8;
+    transition: 0.4s;
+}
+.btn-menu:hover{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #EEEFF8;
+    color: #36363B;
+    border-radius: 0px;  
+}
+.icone-menu{
+    padding: 5px;
+}
+
+/* CARROSSEL PRINCIPAL */
+/* .img-carrossel{
+    height: 50vh;
+} */
+#carouselExampleIndicators ol li{
+    background-color: hsl(215, 86%, 61%);
+}
+.titulo-carrossel{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #EEEFF8;
+}
+.paragrafo-carrossel{
+    margin-top: 5px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    color: #EEEFF8;
+}
+.btn-carrossel{
+    height: 50px;
+    width: 500px;
+    margin-bottom: 40px;
+    border: 2px solid #EEEFF8;
+    border-radius: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #EEEFF8;
+    transition: 0.4s;
+}
+.btn-carrossel:hover{
+    background-color: #EEEFF8;
+    color: #36363B;
+    border-radius: 3px; 
+    font-weight: bold;
+}
+
+/* CARTÕES DA ABA DE RECURSOS  */
+.titulo-card{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #2B2B30;
+}
+.texto-card{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #2B2B30;
+}
+/* IMAGENS ESPECIFICAS */
+/* imagens da aba sobre */
+.img-sobre{
+    width: 100%;
+    height: 250px;
+}
+
+/* RODAPÉ DA PÁGINA */
+.rodape{
+    padding: 5px;
+    background-color: #2B2B30;
+}
+.rodape h5{
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
